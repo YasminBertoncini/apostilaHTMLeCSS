@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostila HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+    <a href="#https://tecnoblog.net/responde/o-que-e-css-cascading-style-sheets/" target="_blank"></a>
+    <a href="https://blog.betrybe.com/desenvolvimento-web/comandos-e-tags-html/" target="_blank"></a>
+
+</head>
+<body>
+    <h1>INTRODUÇÃO A HTML E CSS</h1>
+    <h2>Nesta apostila o nosso objetivo é entender um pouco o que é HTML e CSS</h2>
+   <h3>O que veremos nesta apostila?</h3> 
+
+
+    <nav><a class="linkmenu" href="#IntroduçãoaHTMLeCSS"><li class="listmenu">Introdução a HTML e CSS</li></a>
+        <a class="linkmenu" href="#TagsHTMl"><li class="listmenu">Tags HTML</li></a>
+        <a class="linkmenu" href="#CSS"><li class="listmenu">CSS</li></a>
+        <a class="linkmenu" href="#Exemplosdecódigo"><li class="listmenu">Exemplos de código</li></a>
+   </nav>
+        
+        
+   
+    
+   
+
+    <div>
+        <section id="IntroduçãoaHTMLeCSS">
+        <h2>O que é HTML?</h2>
+        <p> Seu nome tem origem do inglês Hyper Text Markup Language, que significa 
+            “linguagem de marcação de hipertexto”.
+            Em uma pagina WEB é possível perceber que existem diversos elementos separados, como cabeçalho, título, parágrafos,
+             imagens e muitos outros. Toda a organização desses elementos é feita pelo HTML.
+        </p>
+        <p>
+            Ele é utilizado para criar toda a estrutura da página e, para isso, utiliza as famosas tags 
+            (etiquetas) para sinalizar onde cada tipo de elemento será implementado.
+
+        </p>
+     </section>
+    </div>
+
+    <div>
+        <section id="TagsHTMl">
+            <h2>Quais são as principais tags HTML?</h2>
+            <p>Como ja vimos anteriormente para podermos criar uma página HTML precisamos utilizar as <i>Tags HTML</i>          
+           
+             A estrutura básica de um documento HTML consiste em 5 Tags:</p>
+
+          <li> <b><.!DOCTYPE></b>  informa ao navegador da web em qual versão do HTML a página está sendo escrita,
+             por exemplo quando incluímos dentro do DOCTYPE a palavra HTML
+             (<.!DOCTYPE html>), o navegador entenderá que aquela versão é do HTML5.</li> 
+              
+             <li> <b><.html><./html></b>  está logo abaixo da declaração DOCTYPE, é o elemento básico e principal de 
+                 documento HTML e  atua como um container onde podemos definir o idioma padrão utilizado pelo
+                  documento através do atributo “lang” que por padrão vem em inglês (<.html lang = “en”>). 
+                    Todo documento HTML inicializa e finaliza com essa tag</li>
+           <li><b><.title></b> é usado para definir o título do documento que é exibido na parte superior da janela do 
+            navegador, e fornece um título para a página quando ela é adicionada aos favoritos, 
+            favorecendo a busca nos resultados de pesquisa.</li>
+           <li><b><.body><./body></b>Define o corpo do documento, e tudo que estiver dentro desta tag será 
+            mostrado no navegador web.</li>
+        </section>
+    </div> 
+
+            <div>
+                <section id="CSS">
+                    <h2>Entenda o que é o CSS</h2>
+                    <p>CSS é a sigla para Cascading Style Sheets (ou Folha de Estilos em Cascata, em tradução livre). 
+                        Trata-se de uma linguagem de formatação de conteúdo muito utilizada em conjunto com o HTML na construção de páginas da internet, sendo responsável pelo “visual” do site. 
+                        Saiba mais sobre essa tecnologia útil tanto para programadores quanto para web designers.</p>
+                       
+                        <h3>Como funciona?</h3>
+                        <p>O CSS tem uma sintaxe simples, com nomes em inglês para especificar diferentes propriedades de uma página.
+                             O código pode ser escrito dentro de uma tag de abertura de um elemento HTML (chamado de método “inline”),
+                             incorporado em uma seção do cabeçalho do documento, ou em um arquivo separado, que então é importado ou linkado na página.
+                            Quando o CSS é externo ou incorporado, os elementos da página afetados pelos estilos são identificados pelos seletores.
+                             Eles podem ser aplicados a todos os elementos de um tipo específico, ou apenas àqueles que correspondem a um determinado atributo ou identificação.
+                            </p>
+                </section>
+            </div>
+
+            <div>
+                <section id="Exemplosdecódigo">
+                    <h2>Exemplos de código</h2>
+                    <p>Como exemplo de vou usar uma parte do código HTML utilizado para desenvolver esta página</p>
+                   <code>
+                    <.nav><.a class="linkmenu" href="#IntroduçãoaHTMLeCSS"><.li class="listmenu">Introdução a HTML e CSS</.li></.a> <br>
+                        <.a class="linkmenu" href="#TagsHTMl"><.li class="listmenu">Tags HTML</.li></.a> <br>
+                        <.a class="linkmenu" href="#CSS"><.li class="listmenu">CSS<./li><./a> <br>
+                        <.a class="linkmenu" href="#Exemplosdecódigo"><.li class="listmenu">Exemplos de código</.li></.a> <br>
+                   </.nav>
+
+                   </code>
+
+                   <p>Agora um exemplo do código CSS utilizado para estilizar esta página</p>
+                   <code>
+                    h1{
+                        text-align: center;
+                        color:#9d0b28;
+                        border: #1e7181;
+                        border: double;
+                    }
+                    
+                    h2{ color:  #38598b;;
+                    }
+                    
+                    .listmenu{
+                        list-style: none;
+                        border: solid;
+                      border-color: #53a8b6;
+                      margin-right: 50%;
+                      text-align: center;
+                    
+                    }
+                   </code>
+                   
+                   
+
+                </section>
+            </div>
+
+            <h4>Fontes utilizadas</h4>
+          <p><a href="https://tecnoblog.net/responde/o-que-e-css-cascading-style-sheets/">
+            https://tecnoblog.net/responde/o-que-e-css-cascading-style-sheets/</a></p>  
+
+               <p> <a href="https://blog.betrybe.com/desenvolvimento-web/comandos-e-tags-html/">
+                https://blog.betrybe.com/desenvolvimento-web/comandos-e-tags-html/</a></p>
+
+                  <p>  <a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes#:~:
+                    text=HTML%3A%20linguagem%20de%20marca%C3%A7%C3%A3o%20utilizada,para%20os%20elementos
+                    %20da%20p%C3%A1gina   ">https://www.alura.com.br/artigos/html-css-e-js-definicoes
+                     </a></p>
+           
+
+           
+           
+
+
+
+            
+
+
+
+     
+
+
+
+    
+
+
+
+</body>
+</html>
